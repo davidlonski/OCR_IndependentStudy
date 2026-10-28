@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 
 # Configure the API key
-genai.configure(api_key="AIzaSyDLt7t45guqJn21t9XFJYG7CQJnfmlxsuw")
+genai.configure(api_key=os.environ["API_KEY"])
 
 # Function to process a single image and get the region of interest
 def process_image(image_path):

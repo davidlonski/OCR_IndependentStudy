@@ -1,10 +1,11 @@
+import os
 import google.generativeai as genai
 import cv2
 
 filePath = input("Enter file path : ")
 
 # Configure the API key
-genai.configure(api_key="AIzaSyDLt7t45guqJn21t9XFJYG7CQJnfmlxsuw")
+genai.configure(api_key=os.environ["API_KEY"])
 
 img = cv2.imread(filePath)
 

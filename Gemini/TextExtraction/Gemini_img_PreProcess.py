@@ -1,8 +1,9 @@
+import os
 import google.generativeai as genai
 import cv2 as cv
 import numpy as np
 
-genai.configure(api_key="AIzaSyDLt7t45guqJn21t9XFJYG7CQJnfmlxsuw")
+genai.configure(api_key=os.environ["API_KEY"])
 
 #filePath = input("Enter file path : ")
 

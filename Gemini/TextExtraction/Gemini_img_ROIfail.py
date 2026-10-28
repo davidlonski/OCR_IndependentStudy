@@ -1,3 +1,4 @@
+import os
 import google.generativeai as genai
 import numpy as np
 import cv2 as cv
@@ -5,7 +6,7 @@ import re
 import time
 
 # Configure the API key
-genai.configure(api_key="AIzaSyDLt7t45guqJn21t9XFJYG7CQJnfmlxsuw")
+genai.configure(api_key=os.environ["API_KEY"])
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 filePath = "..\\..\\..\\images\\licensePlate.jpg"

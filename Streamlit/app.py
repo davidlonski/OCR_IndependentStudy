@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 from PIL import Image
 import numpy as np
@@ -5,7 +6,7 @@ import google.generativeai as genai
 import cv2 as cv
 import time as t
 
-genai.configure(api_key="AIzaSyDLt7t45guqJn21t9XFJYG7CQJnfmlxsuw")
+genai.configure(api_key=os.environ["API_KEY"])
 
 # Title for the Streamlit app
 st.title("This is an OCR application")

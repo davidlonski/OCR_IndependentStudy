@@ -1,3 +1,4 @@
+import os
 import cv2 as cv
 import matplotlib.pyplot as plt
 import google.generativeai as genai
@@ -5,7 +6,7 @@ import numpy as np
 import re
 
 # Configure API key
-genai.configure(api_key="AIzaSyDLt7t45guqJn21t9XFJYG7CQJnfmlxsuw")
+genai.configure(api_key=os.environ["API_KEY"])
 # Choose a Gemini model.
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 

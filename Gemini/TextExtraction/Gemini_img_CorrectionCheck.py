@@ -1,7 +1,8 @@
+import os
 
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyDLt7t45guqJn21t9XFJYG7CQJnfmlxsuw")
+genai.configure(api_key=os.environ["API_KEY"])
 
 filePath = "..\\images\\captcha.png"
 
