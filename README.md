@@ -1,6 +1,6 @@
 # OCR and Object Recognition with a Vision-Language Model
 
-An independent study (CSC 499) with Dr. Ning Yu at SUNY Brockport, fall 2024 to March 2025. It tests whether Gemini 1.5 Flash can work as an OCR engine that also locates what it reads, using photos, CAPTCHAs, synthetic text, noise and composite images, with OpenCV for the image processing.
+An undergraduate independent study, fall 2024 to March 2025. It tests whether Gemini 1.5 Flash can work as an OCR engine that also locates what it reads, using photos, CAPTCHAs, synthetic text, noise and composite images, with OpenCV for the image processing.
 
 **Research report:** [Research Report 03 (PDF)](https://www.davidlonski.com/research/ocr-object-recognition/report.pdf), which re-analyzes this code and its saved outputs. Project page: [davidlonski.com/research/ocr-object-recognition](https://www.davidlonski.com/research/ocr-object-recognition).
 
@@ -92,4 +92,4 @@ The study continued in summer 2025 as an office-file accessibility and quiz tool
 
 ## Author
 
-David Lonski, with Dr. Ning Yu as advisor.
+David Lonski.
